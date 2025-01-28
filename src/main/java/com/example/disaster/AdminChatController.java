@@ -144,9 +144,7 @@ public class AdminChatController {
                 System.out.println("Failed to send message.");
                 e.printStackTrace();
             }
-        } else {
-            System.out.println("Message is empty or no client selected.");
-        }
+        } 
     }
 
     private void updateChatArea() {
