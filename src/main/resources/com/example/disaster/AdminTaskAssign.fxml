@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #023020;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.disaster.AdminTaskAssign">
+    <children>
+        <!-- Title -->
+        <Label layoutX="20" layoutY="20" style="-fx-font-size: 22px; -fx-font-weight: bold;" text=" Volunteer Tasks" textFill="#daff48" />
+
+        <!-- Table to Display Volunteer Tasks -->
+        <TableView fx:id="taskTable" layoutY="60" prefHeight="300" prefWidth="809.0">
+            <columns>
+                <TableColumn fx:id="taskIdColumn" prefWidth="80" text="Task ID" />
+                <TableColumn fx:id="taskTitleColumn" prefWidth="150" text="Task Title" />
+                <TableColumn fx:id="taskDescriptionColumn" prefWidth="200" text="Description" />
+                <TableColumn fx:id="taskLocationColumn" prefWidth="100" text="Location" />
+                <TableColumn fx:id="taskTypeColumn" prefWidth="100" text="Disaster Type" />
+                <TableColumn fx:id="taskDateColumn" prefWidth="100" text="Assigned Date" />
+                <TableColumn fx:id="taskStatusColumn" prefWidth="80" text="Status" />
+            </columns>
+        </TableView>
+
+        <!-- Form to Add New Task -->
+        <VBox layoutX="20" layoutY="380" spacing="10">
+            <children>
+                <HBox spacing="10">
+                    <Label text="Task Title:" textFill="#b2c92e">
+                  <font>
+                     <Font name="Candara Bold" size="18.0" />
+                  </font></Label>
+                    <TextField fx:id="taskTitleField" prefHeight="25.0" prefWidth="224.0" promptText="Enter task title" />
+                </HBox>
+                <HBox spacing="10">
+                    <Label text="Description:" textFill="#c8ee4a">
+                  <font>
+                     <Font name="Candara Bold" size="14.0" />
+                  </font></Label>
+                    <TextField fx:id="taskDescriptionField" prefHeight="25.0" prefWidth="229.0" promptText="Enter task description" />
+                </HBox>
+                <HBox spacing="10">
+                    <Label text="Location:" textFill="#c5da3d">
+                  <font>
+                     <Font name="Candara Bold" size="18.0" />
+                  </font></Label>
+                    <TextField fx:id="taskLocationField" prefHeight="25.0" prefWidth="230.0" promptText="Enter location" />
+                </HBox>
+                <HBox spacing="10">
+                    <Label text="Disaster Type:" textFill="#b4da38">
+                  <font>
+                     <Font name="Candara Bold" size="14.0" />
+                  </font></Label>
+                    <TextField fx:id="taskTypeField" prefHeight="25.0" prefWidth="223.0" promptText="Enter disaster type" />
+                </HBox>
+                <HBox spacing="10">
+                    <Label text="Assigned Date:" textFill="#f2ff3b">
+                  <font>
+                     <Font name="Candara Bold" size="14.0" />
+                  </font></Label>
+                    <DatePicker fx:id="taskDateField" />
+                </HBox>
+                <Button fx:id="addTaskButton" style="-fx-background-color: #0ab74f; -fx-text-fill: white;" text="Add Task" />
+            </children>
+        </VBox>
+      <Button fx:id="back" layoutX="657.0" layoutY="19.0" mnemonicParsing="false" onAction="#home" style="-fx-background-color: transparent;" stylesheets="@css/importantcontact.css" text="Home" textFill="#b7c643" underline="true">
+         <font>
+            <Font name="Candara Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="53.0" fitWidth="47.0" layoutX="719.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/building.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

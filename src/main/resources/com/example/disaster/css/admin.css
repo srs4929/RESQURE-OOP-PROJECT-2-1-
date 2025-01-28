@@ -1,0 +1,23 @@
+/* Style for the button */
+.button {
+    -fx-background-color: #07873a;             /* Initial green background */
+    -fx-background-radius: 15;                /* Rounded corners */
+    -fx-text-fill: white;                     /* White text color */
+    -fx-padding: 10;                          /* Padding inside the button */
+    -fx-font-size: 14px;                      /* Font size */
+    -fx-border-color: #056b2f;                /* Darker green border */
+    -fx-border-width: 2;                      /* Border thickness */
+    -fx-border-radius: 15;                    /* Rounded corners for the border */
+    -fx-cursor: hand;                         /* Pointer cursor on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 2); /* Drop shadow */
+}
+
+/* Hover state */
+.button:hover {
+    -fx-background-color: #0ab74f;            /* Lighter green on hover */
+}
+
+/* Pressed state */
+.button:pressed {
+    -fx-background-color: #056b2f;            /* Darker green when pressed */
+}

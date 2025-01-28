@@ -1,0 +1,69 @@
+
+Report Date: 2025-01-16
+Name: soma
+Contact: 018*******
+Location: Dhaka
+Severity: Severe
+Description: Urgent need of food
+--------------------------------------------------
+Report Date: 2025-01-22
+Name: soma
+Contact:0181******
+Location: Chattogram
+Severity: Severe
+Description: Medical Support needed
+--------------------------------------------------
+Report Date: 2025-01-23
+Name: soma
+Contact: 0181******
+Location: Khulna
+Severity: Severe
+Description: lack of pure water
+--------------------------------------------------
+Report Date: 2025-01-03
+Name: srs
+Contact: abcdefgh
+Location: Dhaka
+Severity: Mild
+Description: N/a
+--------------------------------------------------
+Report Date: 2025-01-06
+Name: ssrs
+Contact: 1234
+Location: Barishal
+Disaster Type: Earthquake
+Severity: Mild
+Description: Nigga!
+--------------------------------------------------
+Report Date: 2025-01-10
+Name: xss
+Contact: 123456
+Location: Rangpur
+Disaster Type: Fire
+Severity: Moderate
+Description: rubyontherails
+--------------------------------------------------
+Report Date: 2025-01-28
+Name: srs
+Contact: 0181*********
+Location: Dhaka
+Disaster Type: earthquake
+Severity: Moderate
+Description: n/a
+--------------------------------------------------
+Report Date: 2025-01-14
+Name: srs
+Contact: 0181*******
+Location: Khulna
+Disaster Type: Flood
+Severity: Mild
+Description: n/a
+--------------------------------------------------
+Report Date: 2025-01-28
+Name: soma
+Contact: 0181*******
+Location: Rangpur
+Disaster Type: Earthquake
+Severity: Severe
+Description: Medical help needed
+--------------------------------------------------

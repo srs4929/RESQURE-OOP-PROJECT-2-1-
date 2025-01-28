@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500" prefWidth="800" stylesheets="@css/front.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.disaster.ClientChatController">
+
+    <children>
+        <!-- Chat Display Area -->
+        <VBox fx:id="chatArea" layoutX="20" layoutY="90.0" prefHeight="333.0" prefWidth="760.0" spacing="10" style="-fx-padding: 10; -fx-background-color: #f5f5f5; -fx-border-color: #dcdcdc; -fx-border-radius: 10; -fx-background-radius: 10;" />
+
+        <!-- Message Input Area -->
+        <HBox layoutX="20" layoutY="460" prefWidth="760" spacing="10" AnchorPane.bottomAnchor="20">
+            <TextField fx:id="messageField" prefHeight="41.0" prefWidth="680.0" promptText="Type your message..." />
+            <Button fx:id="sendButton" prefHeight="39.0" prefWidth="70.0" style="-fx-background-color: #0ab74f; -fx-text-fill: white;" text="Send">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+        </HBox>
+
+        <!-- Header -->
+        <Label layoutX="20.0" layoutY="24.0" prefHeight="52.0" prefWidth="263.0" text="Emergency Chat">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+      <Button fx:id="home" layoutX="656.0" layoutY="38.0" mnemonicParsing="false" onAction="#menu" stylesheets="@css/front.css" text="Home" textFill="#dbff57">
+         <font>
+            <Font name="Candara Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="59.0" fitWidth="70.0" layoutX="710.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/building.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

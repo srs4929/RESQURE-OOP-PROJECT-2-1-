@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.disaster.Survivalkit">
+   <children>
+      <Label fx:id="type1" prefHeight="25.0" prefWidth="0.0" textFill="#bbc626">
+         <font>
+            <Font name="Candara Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="500.0" prefWidth="515.0">
+         <children>
+            <Label layoutX="193.0" layoutY="31.0" text="Survival Kit">
+               <font>
+                  <Font name="Candara Bold" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="9.0" layoutX="-28.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="572.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2037914691943128">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.13847769796848297" green="0.46052631735801697" blue="0.1215277761220932" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="9.0" layoutY="61.0" stroke="BLACK" strokeType="INSIDE" width="544.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2037914691943128">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.13847769796848297" green="0.46052631735801697" blue="0.1215277761220932" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Label layoutX="38.0" layoutY="111.0" text="What type of disaster ?">
+               <font>
+                  <Font name="Candara Bold" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="disaster" layoutX="227.0" layoutY="110.0" onAction="#choosedisaster" prefHeight="14.0" prefWidth="164.0" promptText="Select a option" />
+            <Button fx:id="ok" layoutX="332.0" layoutY="446.0" mnemonicParsing="false" onAction="#suggestion" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: #254d37;" stylesheets="@css/survival.css" text="Get result" textFill="#ecff6e">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="34.0" layoutY="159.0" text="How many people are in your household?">
+               <font>
+                  <Font name="Candara Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="people" layoutX="365.0" layoutY="158.0" prefHeight="25.0" prefWidth="117.0" promptText="number of people" />
+            <Label layoutX="34.0" layoutY="199.0" text="How many days will you need supplies for?">
+               <font>
+                  <Font name="Candara Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="days" layoutX="365.0" layoutY="198.0" prefHeight="25.0" prefWidth="117.0" promptText="number of days" />
+            <Label layoutX="27.0" layoutY="239.0" prefHeight="22.0" prefWidth="401.0" text="Does anyone in your household have special needs?">
+               <font>
+                  <Font name="Candara Bold" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="need" layoutX="27.0" layoutY="274.0" onAction="#specialneed" prefWidth="150.0" promptText="Select a option" />
+            <Label layoutX="27.0" layoutY="312.0" prefHeight="22.0" prefWidth="516.0" text="Do you have a way to purify water or access to a clean water source?">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="water" layoutX="27.0" layoutY="340.0" onAction="#waterselection" prefWidth="150.0" promptText="Select a option" />
+            <Button fx:id="back" layoutX="206.0" layoutY="446.0" mnemonicParsing="false" onAction="#home" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #254d37;" stylesheets="@css/survival.css" text="Back" textFill="#f2ec4b">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="500.0" prefWidth="292.0" style="-fx-background-color: #013220;">
+         <children>
+            <Label layoutX="54.0" layoutY="30.0" text="Basic Suggestions " textFill="#cfe854">
+               <font>
+                  <Font name="Candara Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="52.0" text="---------------------------------------------" textFill="#cfe854">
+               <font>
+                  <Font name="Candara Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="type" layoutX="3.0" layoutY="93.0" prefHeight="22.0" prefWidth="265.0" textFill="#cfd350">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="special" layoutX="2.0" layoutY="137.0" prefHeight="25.0" prefWidth="312.0" textFill="#d0be37">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="watertext" layoutX="1.0" layoutY="181.0" prefHeight="22.0" prefWidth="280.0" textFill="#acc329">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="food" layoutY="218.0" prefHeight="30.0" prefWidth="318.0" textFill="#eefc54">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="waterneed" layoutX="1.0" layoutY="261.0" prefHeight="27.0" prefWidth="393.0" textFill="#a9e432">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="get" layoutX="30.0" layoutY="350.0" text="If you are in need , get the item" textFill="#fcf245">
+               <font>
+                  <Font name="Candara Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="359.0" text="---------------------------------------------" textFill="#cfe854">
+               <font>
+                  <Font name="Candara Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="click" layoutX="51.0" layoutY="409.0" mnemonicParsing="false" onAction="#successful" prefHeight="27.0" prefWidth="150.0" styleClass="button-1" stylesheets="@css/survival.css" text="Click here to get" textFill="#0f571d">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="type2" prefHeight="22.0" prefWidth="0.0" textFill="#cfd350">
+         <font>
+            <Font name="Candara Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</HBox>
