@@ -19,7 +19,7 @@ public class Volunteer {
 
     @FXML
     private Label firstname, lastname, role, username;
-    //survivalkit page
+ 
 
     public void initialize() {
         // Retrieve user details from UserSession
