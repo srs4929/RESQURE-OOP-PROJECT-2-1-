@@ -95,6 +95,6 @@ The **Disaster Management System** is an  emergency response platform designed t
 
 7. **Run the Application**:  
    - After setting up the database and modifying the credentials, run the application.
-   - For running the chat application, first run the chat server and then login to Admin Help Section and Client help section.
+   - For running the chat application, first run the chat server and then run the Admin Help Section and Client help section.
 
   
