@@ -54,11 +54,13 @@ The **Disaster Management System** is an  emergency response platform designed t
 
 ## Download Instructions
 
-To get started with the **Disaster Management System**, follow the instructions-
+To get started with the **Disaster Management System**, follow these instructions:
 
-1.**Download the zip file**:
-2. **Extract the Files**: Extract the contents of the zip file to your preferred directory.
-3. **Database Setup**:
-   - Import the provided **SQL schema** to set up the MySQL database.
+1. **Download the Zip File**:  
  
- 
+   
+2. **Extract the Files**:  
+  
+3. **Database Setup**:  
+   - Import the provided **SQL schema** into your MySQL database to set it up.  
+  
