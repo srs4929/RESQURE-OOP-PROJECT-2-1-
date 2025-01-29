@@ -7,6 +7,14 @@ The **Disaster Management System** is an  emergency response platform designed t
 
 ---
 
+
+## Workflow
+
+![Image](https://github.com/user-attachments/assets/b69a0a97-3dc8-47d6-84e4-33a665e115c5)
+
+
+---
+
 ## Key Features
 
 ### 🔹 For Citizens
