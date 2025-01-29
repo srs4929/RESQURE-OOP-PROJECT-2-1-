@@ -3,7 +3,7 @@
 
 
 ## Overview
-The **Disaster Management System** is an  emergency response platform designed to assist citizens, administrators, and responders during critical situations. The system focuses on efficient communication, real-time disaster reporting, and streamlined coordination to ensure rapid response and effective management of emergency events.
+The **Disaster Management System** is an  emergency response platform designed to assist citizens, administrators, and responders during critical situations. The system focuses on efficient communication,  disaster reporting, and streamlined coordination to ensure rapid response and effective management of emergency events.
 
 ---
 
