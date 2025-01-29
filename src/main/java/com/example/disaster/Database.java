@@ -17,7 +17,7 @@ public class Database {
         Connection connection = null;
         try {
             String jdbcUsername = "root";
-            String jdbcPassword ="Seizeurmom2003!";
+            String jdbcPassword ="root";
             String jdbcURL = "jdbc:mysql://localhost:3306/disaster";
             connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
         } catch (Exception e) {
