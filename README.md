@@ -43,7 +43,7 @@ The **Disaster Management System** is an  emergency response platform designed t
 -  **Testing**: Manual Testing (to ensure smooth system functionality)
 
 ---
----
+
 
 ## Authors
 
@@ -83,6 +83,6 @@ The **Disaster Management System** is an  emergency response platform designed t
 
 5. **Run the Application**:  
    - After setting up the database and modifying the credentials, run the application.
-  
+   - For running the chat application, first run the chat server.
 
   
