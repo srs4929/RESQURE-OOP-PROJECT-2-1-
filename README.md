@@ -62,5 +62,5 @@ To get started with the **Disaster Management System**, follow these instruction
 2. **Extract the Files**:  
   
 3. **Database Setup**:  
-   - Import the provided **SQL schema** into your MySQL database to set it up.  
+   - Import the provided **SQL schema**  or execute the SQL script from the Database Schema folder into your MySQL database to set it up.  
   
