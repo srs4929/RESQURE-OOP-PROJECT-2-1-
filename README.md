@@ -54,13 +54,24 @@ The **Disaster Management System** is an  emergency response platform designed t
 
 ## Download Instructions
 
-To get started with the **Disaster Management System**, follow these instructions:
+1. **Download the ZIP File**:  
+   Download the project ZIP file from the repository .
 
-1. **Download the Zip File**:  
- 
-   
 2. **Extract the Files**:  
-  
+   Extract the contents of the ZIP file to your preferred directory.
+
 3. **Database Setup**:  
-   - Import the provided **SQL schema**  or execute the SQL script from the Database Schema folder into your MySQL database to set it up.  
+   - Import the provided **SQL schema** or execute the SQL script from the **Database Schema** folder into your MySQL database to set it 
+   - Then, execute the provided SQL script to create the required tables and structure for your application.
+
+4. **Modify Database Credentials**:  
+   - Open the `Database.java` file located in your project folder.
+  
+   - Update your jdbcpassword and jdbcusername with your **MySQL username** and **password**.  
+   
+   - Save the file.
+
+5. **Run the Application**:  
+   - After setting up the database and modifying the credentials, run the application.
+   
   
