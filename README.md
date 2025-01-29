@@ -20,7 +20,7 @@ The **Disaster Management System** is an  emergency response platform designed t
 ### 🔹 For Administrators
 - **Manage Reports**: Review, verify, and prioritize disaster reports.
 - **Task Assignment**: Allocate tasks to responders and volunteers.
-- **Monitor Progress**: Track response activities in real-time.
+
 - **Real-Time Messaging**: Communicate directly with citizens for updates, instructions, and task management.
   
   
@@ -34,7 +34,7 @@ The **Disaster Management System** is an  emergency response platform designed t
 
 ---
 
-## Technology Stack
+## Technology Used
 
 - **IDE**: IntelliJ IDEA
 - **Language**: Java
