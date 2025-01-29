@@ -61,17 +61,28 @@ The **Disaster Management System** is an  emergency response platform designed t
    Extract the contents of the ZIP file to your preferred directory.
 
 3. **Database Setup**:  
-   - Import the provided **SQL schema** or execute the SQL script from the **Database Schema** folder into your MySQL database to set it 
+   - Import the provided **SQL schema** or execute the SQL script from the **Database Schema** folder into your MySQL database to set it
    - Then, execute the provided SQL script to create the required tables and structure for your application.
-
+     
 4. **Modify Database Credentials**:  
    - Open the `Database.java` file located in your project folder.
-  
-   - Update your jdbcpassword and jdbcusername with your **MySQL username** and **password**.  
-   
+   - Locate and update the following lines with your **MySQL username** and **password**:
+     ```java
+     String jdbcUsername = "root";  // MySQL username
+     String jdbcPassword = "root";  // MySQL password
+     String jdbcURL = "jdbc:mysql://localhost:3306/disaster";  // Database URL
+     ```
+     Replace `"root"` with your actual MySQL username and password, if different from the default.
+     Example:
+     ```java
+     String jdbcUsername = "your_username";  // MySQL username
+     String jdbcPassword = "your_password";  // MySQL password
+     String jdbcURL = "jdbc:mysql://localhost:3306/disaster";  // Database URL
+     ```
    - Save the file.
 
 5. **Run the Application**:  
    - After setting up the database and modifying the credentials, run the application.
-   
+  
+
   
