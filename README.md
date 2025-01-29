@@ -69,13 +69,14 @@ The **Disaster Management System** is an  emergency response platform designed t
    Extract the contents of the ZIP file to your preferred directory.
 
 3. **Environment Setup**:
-    In any kind of IDE setup Javafx environment.   
+ 
+    In any kind of IDE setup JavaFX environment.   
 
-4. **Database Setup**:  
+5. **Database Setup**:  
    - Import the provided **SQL schema** or execute the SQL script from the **Database Schema** folder into your MySQL database to set it
    - Then, execute the provided SQL script to create the required tables and structure for your application.
      
-5. **Modify Database Credentials**:  
+6. **Modify Database Credentials**:  
    - Open the `Database.java` file located in your project folder.
    - Locate and update the following lines with your **MySQL username** and **password**:
      ```java
@@ -92,7 +93,7 @@ The **Disaster Management System** is an  emergency response platform designed t
      ```
    - Save the file.
 
-6. **Run the Application**:  
+7. **Run the Application**:  
    - After setting up the database and modifying the credentials, run the application.
    - For running the chat application, first run the chat server and then login to Admin Help Section and Client help section.
 
