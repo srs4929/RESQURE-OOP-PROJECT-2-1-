@@ -42,7 +42,7 @@ project-root/
 ## `src/main/java`
 This directory contains all the Java source files. The typical package structure follows the domain name convention (e.g., `com.example.disaster`).
 
-## `src/main/java`
+## `src/main/resources`
 This directory contains all the fxml files.
 
 
