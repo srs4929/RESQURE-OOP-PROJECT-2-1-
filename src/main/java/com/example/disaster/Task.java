@@ -9,7 +9,7 @@ public class Task {
     private String assignedDate;
     private String status;
 
-
+    public Task(){};
     public Task(int id, String title, String description, String location, String disasterType, String assignedDate, String status) {
         this.id = id;
         this.title = title;
