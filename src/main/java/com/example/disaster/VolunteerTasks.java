@@ -21,7 +21,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class VolunteerTasks {
+public class VolunteerTasks  extends Task {
 
     @FXML
     private FlowPane taskFlowPane;
@@ -41,6 +41,10 @@ public class VolunteerTasks {
     // File path for saving report details
     private final String filePath = "src/main/resources/volunteerreport.txt";
 
+
+    public VolunteerTasks() {
+        super();
+    }
     @FXML
     public void initialize() {
 
