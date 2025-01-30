@@ -15,6 +15,40 @@ The **Disaster Management System** is an  emergency response platform designed t
 
 ---
 
+## Project Structure 
+
+This project follows a standard Maven/Gradle-based Java project structure.
+
+## Directory Layout
+
+```
+project-root/
+│-- src/
+│   ├── main/
+│   │   ├── java/                  # Contains all Java source code
+│   │   │   ├── com/
+│   │   │   │   ├── example/
+│   │   │   │   │   ├── disaster  
+│   │   ├── resources             # Contains all fxml files.
+│   │   │   
+│   │   │        
+│-- pom.xml                        # Maven build file (for Maven projects)
+│-- mvnw
+|-- mvnw.cmd
+|-- LICENSE                 
+│-- README.md                     
+```
+
+## `src/main/java`
+This directory contains all the Java source files. The typical package structure follows the domain name convention (e.g., `com.example.disaster`).
+
+## `src/main/java`
+This directory contains all the fxml files.
+
+
+---
+
+
 ## Key Features
 
 ### 🔹 For Citizens
