@@ -114,8 +114,8 @@ This directory contains all the fxml files.
    - Open the `Database.java` file located in your project folder.
    - Locate and update the following lines with your **MySQL username** and **password**:
      ```java
-     String jdbcUsername = "root";  // MySQL username
-     String jdbcPassword = "root";  // MySQL password
+     String jdbcUsername =  // MySQL username
+     String jdbcPassword =  // MySQL password
      String jdbcURL = "jdbc:mysql://localhost:3306/disaster";  // Database URL
      ```
      Replace `"root"` with your actual MySQL username and password, if different from the default.
